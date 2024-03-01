@@ -1,0 +1,48 @@
+@import url();
+
+:root{
+    --cor-de-fundo: rgb(130, 131, 85);
+    --verde: green;
+    --branco: aqua;
+    --botao-ativo: black;
+    --botao-inativo: rgb(58, 58, 58);
+    --texto-fundo: black;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Crakra Petch", sans-serif;
+}
+
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0%;
+}
+
+
+.titulo-principal{
+}
+
+.titulo-principal span {
+    color: var(--verde);
+}
+
+.botao {
+    font-family: "Crakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+}
+
